@@ -1,4 +1,4 @@
-package fizzbuzz;
+package programms;
 
 /**
  * Расчёт факториала.

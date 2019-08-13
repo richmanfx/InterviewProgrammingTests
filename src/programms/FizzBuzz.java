@@ -1,10 +1,10 @@
-package fizzbuzz;
+package programms;
 
 /**
  * Программа, которая выводит на экран числа от 1 до 100.
  * При этом вместо чисел, кратных трем, программа должна выводить слово Fizz,
  * а вместо чисел, кратных пяти — слово Buzz.
- * Если число кратно пятнадцати, то программа должна выводить слово FizzBuzz.
+ * Если число кратно пятнадцати, то программа должна выводить слово programms.FizzBuzz.
  */
 
 public class FizzBuzz {
@@ -17,7 +17,7 @@ public class FizzBuzz {
         for (int i = 1; i <=100; i++) {
 
             if (i % 15 == 0) {
-                result.append("FizzBuzz ");
+                result.append("programms.FizzBuzz ");
             } else if (i % 5 == 0) {
                 result.append("Buzz ");
             } else if (i % 3 == 0) {
