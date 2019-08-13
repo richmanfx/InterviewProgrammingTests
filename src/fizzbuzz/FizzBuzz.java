@@ -12,7 +12,7 @@ public class FizzBuzz {
     public static void main(String[] args) {
 
 
-        // Решение "в лоб"
+        // Решение циклом с добавлением строк
         StringBuilder result = new StringBuilder();
         for (int i = 1; i <=100; i++) {
 
@@ -29,7 +29,7 @@ public class FizzBuzz {
         System.out.print(result + "\n");
 
 
-        // Решение с удалением слов, а не добавлением
+        // Решение с удалением строк, а не добавлением
         for (int i = 1; i <=100; i++) {
 
             String num = Integer.toString(i);
