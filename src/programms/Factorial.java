@@ -7,7 +7,6 @@ package programms;
  * 0! = 1
  * n! = n*(n-1)!
  */
-
 public class Factorial {
 
     public static void main(String[] args) {
